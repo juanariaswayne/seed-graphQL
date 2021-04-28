@@ -1,0 +1,15 @@
+dist
+node_modules
+coverage
+.scannerwork
+.idea
+
+package*.json
+
+.gitignore
+.eslint.js
+jest.config.js
+sonar-project.js
+README.md
+
+Dockerfile

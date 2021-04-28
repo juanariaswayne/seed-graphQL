@@ -1,0 +1,13 @@
+environment:
+    node_env: "NODE_ENV"
+database:
+    type: "DB_TYPE"
+    host: "DB_HOST"
+    port: "DB_PORT"
+    database: "DB_NAME"
+    username: "DB_USER"
+    password: "DB_PASSWORD"
+sonarqube:
+    host: 'SONARQUBE_HOST'
+    port: 'SONARQUBE_PORT'
+    version: 'SONAR_SCANNER_VERSION'

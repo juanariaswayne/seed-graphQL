@@ -1,0 +1,11 @@
+node_modules
+.idea
+coverage
+.scannerwork
+.dockerignore
+Dockerfile
+npm-debug.log
+.git
+.hg
+.svn
+.env

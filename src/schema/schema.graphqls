@@ -1,0 +1,28 @@
+type Query {
+    "Obtener una persona por su identificador."
+    getOnePerson(id: ID!): Person
+    "Obtener una lista con todas las personas."
+    getAllPerson: [Person]!
+}
+
+type Mutation {
+    "Crear una nueva persona"
+    createPerson(fields: PersonInput!): Person
+    "Editar una persona existente con su identificador."
+    editPerson(id: ID!, fields: PersonInput!): Boolean!
+    "Borrar una persona existente con su identificador."
+    deletePerson(id: ID!): Boolean!
+}
+
+type Person {
+    id: ID!
+    name: String!
+    age: Int!
+    createdAt: String!
+    updatedAt: String!
+}
+
+input PersonInput {
+    name: String
+    age: Int
+}

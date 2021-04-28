@@ -1,0 +1,9 @@
+.idea
+node_modules
+.scannerwork
+coverage
+dist
+.env
+src/schema/.graphqlconfig
+/config/local.yml
+/docker-compose.yml

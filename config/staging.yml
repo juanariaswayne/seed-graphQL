@@ -1,0 +1,16 @@
+environment:
+    name: 'staging'
+    production: false
+    node_env:
+database:
+    type: 'mongodb'
+    host:
+    port:
+    database:
+    username:
+    password:
+    synchronize: true
+sonarqube:
+    host:
+    port:
+    version:
