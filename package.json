@@ -1,7 +1,7 @@
 {
-  "name": "nodejs-seed-nosql",
+  "name": "seed-graphQl",
   "version": "0.0.0",
-  "description": "This repo is created as a seed to create a microservice with nodejs and nosql dbms into Bidi's microservices.",
+  "description": "",
   "main": "/dist/index.js",
   "scripts": {
     "lint": "eslint . --color",
@@ -25,10 +25,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.vida:libros-grp/bidi-new-2020/nodejs-seed-nosql.git"
+    "url": "git@github.com:juanariaswayne/seed-graphQL.git"
   },
   "keywords": [],
-  "author": "David Agustin Melgar <dmelgar@vi-datec.com>",
+  "author": "Juan Arias",
   "license": "ISC",
   "devDependencies": {
     "@types/chalk": "^2.2.0",
